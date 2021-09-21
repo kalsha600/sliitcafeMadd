@@ -143,4 +143,7 @@
     <string name="show_this_qr_code_to_your_office_canteen">Show this QR Code to your Office Canteen</string>
     <string name="sign_In">Sign in</string>
     <string name="sign_in">SIGN IN</string>
+    <string name="company_organization2">Faculty</string>
+    <string name="enjoy_your_meal_with_us">Enjoy Your Meal With Us</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

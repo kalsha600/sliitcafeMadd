@@ -47,7 +47,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="55dp"
             android:background="@drawable/top_curve_profile_background"/>
 
         <androidx.core.widget.NestedScrollView
@@ -173,26 +173,28 @@
                                 android:layout_height="30dp"
                                 android:layout_marginEnd="10dp"
                                 android:src="@drawable/ic_organization"
-                                android:contentDescription="@string/company_organization"/>
+                                android:contentDescription="@string/company_organization2"/>
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
+
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="@string/company_organization"
                                     android:fontFamily="@font/montserrat_bold"
-                                    android:textSize="12sp"
-                                    android:textColor="@color/purple_theme_color"/>
+                                    android:text="@string/company_organization2"
+                                    android:textColor="@color/purple_theme_color"
+                                    android:textSize="12sp" />
+
                                 <TextView
                                     android:id="@+id/profile_organization_tv"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="@string/company_organization"
-                                    android:textSize="15sp"
-                                    android:textColor="@color/text_light_color"/>
+                                    android:text="@string/company_organization2"
+                                    android:textColor="@color/text_light_color"
+                                    android:textSize="15sp" />
                             </LinearLayout>
 
                         </LinearLayout>

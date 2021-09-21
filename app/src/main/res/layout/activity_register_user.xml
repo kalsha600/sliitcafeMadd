@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".RegisterUserActivity"
     android:focusable="true"
+    android:background="@drawable/register_back"
     android:descendantFocusability="beforeDescendants"
     android:focusableInTouchMode="true">
 
@@ -36,11 +37,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginBottom="50dp"
-                android:text="@string/enjoy_your_meal"
-                android:textSize="18sp"
                 android:fontFamily="@font/montserrat_semi_bold"
-                android:layout_gravity="center"/>
+                android:text="@string/enjoy_your_meal_with_us"
+                android:textColor="@color/enjoy_your_meal"
+                android:textSize="18sp" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/register_full_name_til"
@@ -53,6 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/full_name"
+                    android:background="@drawable/textarea_color"
                     android:inputType="text"
                     android:drawableStart="@drawable/ic_user"
                     android:drawablePadding="10dp"/>
@@ -68,9 +71,10 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawableStart="@drawable/ic_baseline_mail_outline_24"
                     android:drawablePadding="10dp"
                     android:hint="@string/e_mail"
+                    android:background="@drawable/textarea_color"
                     android:inputType="textEmailAddress" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -84,10 +88,11 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/company_organization"
-                    android:inputType="text"
+                    android:background="@drawable/textarea_color"
                     android:drawableStart="@drawable/ic_organization"
-                    android:drawablePadding="10dp"/>
+                    android:drawablePadding="10dp"
+                    android:hint="@string/company_organization2"
+                    android:inputType="text" />
 
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -101,6 +106,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/employee_id"
+                    android:background="@drawable/textarea_color"
                     android:inputType="text"
                     android:drawableStart="@drawable/ic_employee_id"
                     android:drawablePadding="10dp"/>
@@ -118,6 +124,7 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/mobile_number"
                     android:inputType="number"
+                    android:background="@drawable/textarea_color"
                     android:maxLength="10"
                     android:drawableStart="@drawable/ic_mobile"
                     android:drawablePadding="10dp"/>
@@ -135,6 +142,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/create_password"
+                    android:background="@drawable/textarea_color"
                     android:inputType="textPassword"
                     android:drawableStart="@drawable/ic_password_1"
                     android:drawablePadding="10dp"/>
@@ -151,9 +159,10 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/ic_baseline_password_24"
+                    android:drawableStart="@drawable/ic_password_1"
                     android:drawablePadding="10dp"
                     android:hint="@string/confirm_password"
+                    android:background="@drawable/textarea_color"
                     android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -162,14 +171,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/montserrat_semi_bold"
                     android:text="@string/employee_id_card"
-                    android:textSize="16sp"
-                    android:textColor="@color/text_light_color"
-                    android:fontFamily="@font/montserrat_semi_bold"/>
+                    android:textColor="@color/enjoy_your_meal"
+                    android:textSize="16sp" />
 
                 <Button
                     android:layout_width="wrap_content"
@@ -192,9 +202,10 @@
                 android:id="@+id/register_agree_check_box"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_regular"
                 android:text="@string/i_agree_to_the_terms_conditions"
-                android:textSize="14sp"
-                android:fontFamily="@font/montserrat_regular"/>
+                android:textColor="@color/enjoy_your_meal"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -207,21 +218,25 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="5dp"
                     android:text="@string/preview"
+                    android:background="@drawable/custom_button"
                     android:textAllCaps="false"
-                    android:textColor="@color/text_dark_color"
+                    android:textColor="@color/white"
                     android:backgroundTint="@color/white"
                     android:onClick="openPreviewActivity"/>
 
                 <Button
                     android:id="@+id/register_emp_btn"
+                    android:text="@string/sign_up"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:text="@string/register"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/custom_button"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
-                    android:enabled="false"/>
+                    android:backgroundTint="@color/white"
+
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -230,21 +245,23 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
                 android:layout_gravity="center">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="5dp"
                     android:text="@string/already_have_a_account"
-                    android:textSize="15sp"
-                    android:textColor="@color/text_light_color"/>
+                    android:textColor="@color/enjoy_your_meal"
+                    android:textSize="15sp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/login"
-                    android:textSize="15sp"
-                    android:textColor="@color/purple_theme_color"
                     android:fontFamily="@font/montserrat_bold"
-                    android:onClick="openLoginActivity"/>
+                    android:onClick="openLoginActivity"
+                    android:text="@string/sign_in"
+                    android:textColor="@color/purple_theme_color"
+                    android:textSize="15sp" />
             </LinearLayout>
 
         </LinearLayout>

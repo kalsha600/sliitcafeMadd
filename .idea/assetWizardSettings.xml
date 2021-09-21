@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/remove_red_eye/baseline_remove_red_eye_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/mail_outline/baseline_mail_outline_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,8 +33,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="efe962" />
-                            <entry key="outputName" value="ic_baseline_remove_red_eye_24" />
+                            <entry key="color" value="f3bc1a" />
+                            <entry key="outputName" value="ic_baseline_mail_outline_24" />
                             <entry key="sourceFile" value="D:\Maddfinal\sliitcafeMadd" />
                           </map>
                         </option>

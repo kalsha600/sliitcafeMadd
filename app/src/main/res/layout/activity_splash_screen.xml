@@ -32,16 +32,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="348dp"
-        android:layout_height="166dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="363dp"
+        android:layout_height="167dp"
+        app:layout_constraintBottom_toTopOf="@+id/splash_screen_app_logo_back_iv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.175"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

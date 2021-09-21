@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".ContactUsActivity"
     android:focusable="true"
+    android:background="@drawable/contact_back"
     android:descendantFocusability="beforeDescendants"
     android:focusableInTouchMode="true">
 
@@ -117,8 +118,7 @@
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-
-                        app:srcCompat="@drawable/ic_baseline_email_24" />
+                        app:srcCompat="@drawable/ic_baseline_mail_outline_24" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -151,33 +151,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
+                android:background="@color/black"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
                     android:layout_marginBottom="20dp"
                     android:text="@string/have_a_problem"
+                    android:textColor="@color/enjoy_your_meal"
                     android:textSize="18sp"
-                    android:textColor="@color/text_light_color"
-                    android:textStyle="bold"
-                    android:layout_gravity="center_horizontal"/>
+                    android:textStyle="bold" />
 
                 <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
+                        android:textColorHint="#FBEE79"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/contact_us_name_et"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:enabled="false"
-                            android:hint="@string/name"
-                            android:inputType="textEmailAddress"
-                            android:drawableStart="@drawable/ic_user"
-                            android:drawablePadding="10dp"/>
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/contact_us_name_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/textarea_color"
+                        android:drawableStart="@drawable/ic_user"
+                        android:drawablePadding="10dp"
+                        android:enabled="false"
+                        android:hint="@string/name"
+                        android:inputType="textEmailAddress"
+                        android:textColor="#FBEE79"
+                        android:textColorHint="#FFFFFF" />
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -185,17 +190,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
+                        android:textColorHint="#FBEE79"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/contact_us_email_et"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:drawableStart="@drawable/ic_baseline_email_24"
+                        android:background="@drawable/textarea_color"
+                        android:drawableStart="@drawable/ic_baseline_mail_outline_24"
                         android:drawablePadding="10dp"
                         android:enabled="false"
                         android:hint="@string/e_mail"
-                        android:inputType="textEmailAddress" />
+                        android:inputType="textEmailAddress"
+                        android:textColor="#FBEE79"
+                        android:textColorHint="#FFFFFF" />
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -210,11 +219,14 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/textarea_color"
+                        android:drawableStart="@drawable/ic_message"
+                        android:drawablePadding="10dp"
                         android:hint="@string/message"
                         android:inputType="textMultiLine"
                         android:maxLines="10"
-                        android:drawableStart="@drawable/ic_message"
-                        android:drawablePadding="10dp"/>
+                        android:textColor="#FBEE79"
+                        android:textColorHint="#FFFFFF" />
 
                     </com.google.android.material.textfield.TextInputLayout>
 
