@@ -49,16 +49,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true"
+                android:textColorHint="#FBEE79"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/full_name"
                     android:background="@drawable/textarea_color"
-                    android:inputType="text"
                     android:drawableStart="@drawable/ic_user"
-                    android:drawablePadding="10dp"/>
+                    android:drawablePadding="10dp"
+                    android:hint="@string/full_name"
+                    android:inputType="text"
+                    android:textColor="#FFFDFD" />
 
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -66,16 +68,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true"
+                android:textColorHint="#FBEE79"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/textarea_color"
                     android:drawableStart="@drawable/ic_baseline_mail_outline_24"
                     android:drawablePadding="10dp"
                     android:hint="@string/e_mail"
-                    android:background="@drawable/textarea_color"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"
+                    android:textColor="#FFFFFF" />
 
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -83,6 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true"
+                android:textColorHint="#FBEE79"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -92,7 +97,8 @@
                     android:drawableStart="@drawable/ic_organization"
                     android:drawablePadding="10dp"
                     android:hint="@string/company_organization2"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColor="#FFFFFF" />
 
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -100,16 +106,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true"
+                android:textColorHint="#FBEE79"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/employee_id"
                     android:background="@drawable/textarea_color"
-                    android:inputType="text"
                     android:drawableStart="@drawable/ic_employee_id"
-                    android:drawablePadding="10dp"/>
+                    android:drawablePadding="10dp"
+                    android:hint="@string/employee_id"
+                    android:inputType="text"
+                    android:textColor="#FFFFFF" />
 
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -117,17 +125,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true"
+                android:textColorHint="#FBEE79"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/textarea_color"
+                    android:drawableStart="@drawable/ic_mobile"
+                    android:drawablePadding="10dp"
                     android:hint="@string/mobile_number"
                     android:inputType="number"
-                    android:background="@drawable/textarea_color"
                     android:maxLength="10"
-                    android:drawableStart="@drawable/ic_mobile"
-                    android:drawablePadding="10dp"/>
+                    android:textColor="#FFFFFF" />
 
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -136,16 +146,18 @@
                 android:layout_height="wrap_content"
                 app:errorEnabled="true"
                 app:passwordToggleEnabled="true"
+                android:textColorHint="#FBEE79"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/create_password"
                     android:background="@drawable/textarea_color"
-                    android:inputType="textPassword"
                     android:drawableStart="@drawable/ic_password_1"
-                    android:drawablePadding="10dp"/>
+                    android:drawablePadding="10dp"
+                    android:hint="@string/create_password"
+                    android:inputType="textPassword"
+                    android:textColor="#FFFFFF" />
 
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -154,16 +166,18 @@
                 android:layout_height="wrap_content"
                 app:errorEnabled="true"
                 app:passwordToggleEnabled="true"
+                android:textColorHint="#FBEE79"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/textarea_color"
                     android:drawableStart="@drawable/ic_password_1"
                     android:drawablePadding="10dp"
                     android:hint="@string/confirm_password"
-                    android:background="@drawable/textarea_color"
-                    android:inputType="textPassword" />
+                    android:inputType="textPassword"
+                    android:textColor="#FFFFFF" />
 
             </com.google.android.material.textfield.TextInputLayout>
 

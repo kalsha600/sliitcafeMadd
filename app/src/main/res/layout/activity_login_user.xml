@@ -52,6 +52,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="#FBEE79"
             app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -62,8 +63,8 @@
                 android:drawablePadding="10dp"
                 android:hint="@string/e_mail"
                 android:inputType="textEmailAddress"
-                android:textColor="#59FAF2A4"
-                android:textColorHint="@color/enjoy_your_meal" />
+                android:textColor="#FFFFFF"
+                android:textColorHint="@color/white" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -72,6 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="true"
+            android:textColorHint="#FBEE79"
             app:passwordToggleEnabled="true">
 
 
@@ -83,8 +85,8 @@
                 android:drawablePadding="10dp"
                 android:hint="@string/password"
                 android:inputType="textPassword"
-                android:textColor="#FDF7C1"
-                android:textColorHint="@color/enjoy_your_meal">
+                android:textColor="#FFFFFF"
+                android:textColorHint="@color/white">
 
             </com.google.android.material.textfield.TextInputEditText>
 
