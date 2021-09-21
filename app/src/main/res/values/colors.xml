@@ -6,15 +6,16 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="purple_theme_color">#6173DF</color>
+    <color name="purple_theme_color">#FFF3BC1A</color>
     <color name="text_dark_color">#1C213F</color>
     <color name="text_light_color">#BF1C213F</color>
-
-
+    <color name="welcomback_color">#FFFFC107</color>
+    <color name="enjoy_your_meal">#FFEFE692</color>
     <color name="purple_enabled_color">#6173DF</color>
     <color name="purple_disabled_color">#4D6173DF</color>
-
+    <color name="button_color">#FFFFC107</color>
     <color name="light_green">#11C971</color>
+    <color name="text_area">#FFFDF7C1</color>
 
     <color name="button_enabled_color">#6173DF</color>
     <color name="button_disabled_color">#A0A0A1</color>

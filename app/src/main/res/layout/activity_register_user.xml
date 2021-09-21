@@ -68,10 +68,10 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="10dp"
                     android:hint="@string/e_mail"
-                    android:inputType="textEmailAddress"
-                    android:drawableStart="@drawable/ic_email"
-                    android:drawablePadding="10dp"/>
+                    android:inputType="textEmailAddress" />
 
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -151,10 +151,10 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_password_24"
+                    android:drawablePadding="10dp"
                     android:hint="@string/confirm_password"
-                    android:inputType="textPassword"
-                    android:drawableStart="@drawable/ic_password_2"
-                    android:drawablePadding="10dp"/>
+                    android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
 

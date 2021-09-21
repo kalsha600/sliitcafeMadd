@@ -14,8 +14,8 @@ class SplashScreenActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        window.statusBarColor = resources.getColor(R.color.purple_theme_color)
-        window.navigationBarColor = resources.getColor(R.color.purple_theme_color)
+        window.statusBarColor = resources.getColor(R.color.black)
+        window.navigationBarColor = resources.getColor(R.color.black)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +34,7 @@ class SplashScreenActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
 
-        }, 1200)
+        }, 1400)
 
     }
 }
