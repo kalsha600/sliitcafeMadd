@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".MainActivity"
-    android:background="#E6F8F8F8">
+    android:background="#191616">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,21 +31,21 @@
                 android:id="@+id/nav_drawer_opener_iv"
                 android:layout_width="25dp"
                 android:layout_height="20dp"
-                android:src="@drawable/ic_menu_2"
-                app:tint="@color/text_dark_color"
-                android:contentDescription="@string/menu_icon"
                 android:layout_marginEnd="20dp"
-                android:background="?android:attr/selectableItemBackground"/>
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/menu_icon"
+                android:src="@drawable/ic_menu_2"
+                app:tint="@color/ic_launcher_background" />
 
             <TextView
                 android:id="@+id/top_wish_name_tv"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat_semi_bold"
                 android:text="@string/hi"
-                android:textSize="22sp"
-                android:textColor="#1C213F"
-                android:fontFamily="@font/montserrat_semi_bold"/>
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
 
             <ImageView
                 android:id="@+id/main_activity_search_iv"
@@ -95,7 +95,10 @@
             android:paddingHorizontal="0dp"
             android:paddingTop="30dp"
             android:clipToPadding="false"
-            android:background="@drawable/top_curve_rectangle">
+
+            android:background="#191616"
+            >
+
 
             <!--Food Categories-->
 
@@ -113,12 +116,12 @@
                     android:id="@+id/show_all_items_switch"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/show_all"
+                    android:checked="true"
                     android:fontFamily="@font/montserrat_regular"
+                    android:minHeight="0dp"
                     android:scaleX="0.8"
                     android:scaleY="0.8"
-                    android:minHeight="0dp"
-                    android:checked="true" />
+                    android:text="@string/show_all" />
 
             </LinearLayout>
 
@@ -137,9 +140,9 @@
                         android:id="@+id/items_recycler_view"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        tools:listitem="@layout/list_menu_item"
+                        android:clipToPadding="false"
                         android:paddingBottom="100dp"
-                        android:clipToPadding="false"/>
+                        tools:listitem="@layout/list_menu_item" />
 
                 </LinearLayout>
 

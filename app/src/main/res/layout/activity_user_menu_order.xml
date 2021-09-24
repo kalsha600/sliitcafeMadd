@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserMenuOrderActivity"
-    android:background="#F5F5F5"
-    android:orientation="vertical">
+    android:background="#191616"
+    android:orientation="vertical"
+    tools:context=".UserMenuOrderActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="10dp"
-        android:paddingHorizontal="20dp">
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp">
 
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_arrow_upward"
-            app:tint="@color/text_dark_color"
+            android:onClick="goBack"
             android:rotation="-90"
+            android:src="@drawable/ic_arrow_upward"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:onClick="goBack"/>
+            app:tint="@color/ic_launcher_background" />
 
         <ImageView
             android:id="@+id/user_menu_order_help_iv"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_help"
-            app:tint="@color/text_dark_color"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/black" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -49,136 +48,136 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_semi_bold"
                     android:text="@string/your_order"
-                    android:textSize="20sp"
-                    android:textColor="@color/text_dark_color"
-                    android:fontFamily="@font/montserrat_semi_bold"/>
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/order_total_items_tv"
-                    android:transitionName="totalOrderedItemsTransition"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat_semi_bold"
                     android:text="@string/default_quantity"
-                    android:textSize="16sp"
                     android:textAlignment="textEnd"
                     android:textColor="@color/text_light_color"
-                    android:fontFamily="@font/montserrat_semi_bold"/>
+                    android:textSize="16sp"
+                    android:transitionName="totalOrderedItemsTransition" />
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/order_recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:paddingBottom="10dp"
-                android:clipToPadding="false"
                 android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:clipToPadding="false"
+                android:nestedScrollingEnabled="false"
+                android:paddingBottom="10dp"
                 tools:itemCount="3"
-                tools:listitem="@layout/list_menu_item"
-                android:nestedScrollingEnabled="false"/>
+                tools:listitem="@layout/list_menu_item" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat_semi_bold"
                 android:text="@string/order_details"
-                android:textSize="16sp"
-                android:textColor="@color/text_dark_color"
-                android:fontFamily="@font/montserrat_semi_bold"/>
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="16sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginHorizontal="25dp"
-                android:layout_marginTop="15dp">
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/total_price"
-                    android:textSize="15sp"
-                    android:textColor="@color/text_light_color"/>
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/order_total_price_tv"
-                    android:transitionName="totalOrderedItemsPriceTransition"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/default_price"
-                    android:textSize="15sp"
                     android:textAlignment="textEnd"
-                    android:textColor="@color/text_light_color"/>
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="15sp"
+                    android:transitionName="totalOrderedItemsPriceTransition" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginHorizontal="25dp"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/tax"
-                    android:textSize="15sp"
-                    android:textColor="@color/text_light_color"/>
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/order_total_tax_tv"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/default_price"
-                    android:textSize="15sp"
                     android:textAlignment="textEnd"
-                    android:textColor="@color/text_light_color"/>
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginHorizontal="25dp"
-                android:background="@drawable/horizontal_line"/>
+                android:layout_marginTop="10dp"
+                android:background="@drawable/horizontal_line" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginHorizontal="25dp"
-                android:layout_marginTop="5dp">
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/sub_total"
-                    android:textSize="15sp"
-                    android:textColor="@color/text_light_color"/>
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/order_sub_total_tv"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/default_price"
-                    android:textSize="15sp"
                     android:textAlignment="textEnd"
-                    android:textColor="@color/text_light_color"/>
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
@@ -187,39 +186,39 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/time_for_take_away_of_order"
-                android:textSize="15sp"
-                android:textColor="@color/text_dark_color"
+                android:drawablePadding="5dp"
                 android:fontFamily="@font/montserrat_semi_bold"
-                app:drawableTint="@color/purple_theme_color"
+                android:text="@string/time_for_take_away_of_order"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="15sp"
                 app:drawableEndCompat="@drawable/ic_time"
-                android:drawablePadding="5dp"/>
+                app:drawableTint="@color/purple_theme_color" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginHorizontal="25dp"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/order_take_away_time_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="00:00 AM"
-                    android:textSize="15sp"
-                    android:textColor="@color/text_light_color"/>
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
+                    android:fontFamily="@font/montserrat_semi_bold"
+                    android:onClick="changeOrderTakeAwayTime"
                     android:text="@string/change_time"
-                    android:textSize="15sp"
                     android:textAlignment="textEnd"
                     android:textColor="@color/purple_theme_color"
-                    android:fontFamily="@font/montserrat_semi_bold"
-                    android:onClick="changeOrderTakeAwayTime"/>
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
@@ -227,14 +226,14 @@
                 android:id="@+id/proceed_to_pay_btn"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginVertical="20dp"
                 android:layout_marginHorizontal="25dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/purple_theme_color"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:onClick="openPaymentActivity"
                 android:text="@string/proceed_to_pay"
                 android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:fontFamily="@font/montserrat_semi_bold"
-                android:backgroundTint="@color/purple_theme_color"
-                android:onClick="openPaymentActivity"/>
+                android:textColor="@color/ic_launcher_background" />
 
         </LinearLayout>
 
