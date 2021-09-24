@@ -42,10 +42,28 @@
         <entry key="..\:/My Documents/4th year/New folder/edit/vinura/app/src/main/res/layout/saved_card_item.xml" value="0.2677083333333333" />
         <entry key="..\:/My Documents/4th year/New folder/edit/vinura/app/src/main/res/layout/selected_menu_bottom_dialog.xml" value="0.2677083333333333" />
         <entry key="..\:/My Documents/4th year/New folder/edit/vinura/app/src/main/res/menu/nav_menu.xml" value="0.21666666666666667" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_contact_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_login_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_order_done.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_orders_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_payment.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_preview_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_register_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_user_menu_order.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/activity_user_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/current_order_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/fragment_q_r_code.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/list_menu_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/nav_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/popup_forgot_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/saved_card_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/SCafe/sliitcafeMadd/app/src/main/res/layout/selected_menu_bottom_dialog.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

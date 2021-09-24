@@ -14,7 +14,7 @@
     <color name="purple_enabled_color">#6173DF</color>
     <color name="purple_disabled_color">#4D6173DF</color>
     <color name="button_color">#FFFFC107</color>
-    <color name="light_green">#11C971</color>
+    <color name="light_green">#FF000000</color>
     <color name="text_area">#FFFDF7C1</color>
 
     <color name="button_enabled_color">#6173DF</color>

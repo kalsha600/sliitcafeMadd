@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/show_this_qr_code_to_your_office_canteen"
-        android:textStyle="bold"/>
+        android:text="@string/qrCode"
+        android:textStyle="bold" />
 
 </LinearLayout>
