@@ -123,9 +123,7 @@ class MainActivity : AppCompatActivity(), RecyclerFoodItemAdapter.OnItemClickLis
                 override fun onDataChange(snapshot: DataSnapshot) {
                     empGender = snapshot.child("gender").value.toString()
                     //by default male icon is attached
-                    if (empGender == "female") {
-                        userIcon.setImageDrawable(resources.getDrawable(R.drawable.user_female))
-                    }
+
                 }
 
                 override fun onCancelled(error: DatabaseError) {}
