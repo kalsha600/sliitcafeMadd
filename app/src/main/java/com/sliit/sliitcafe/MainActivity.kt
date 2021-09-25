@@ -266,6 +266,44 @@ class MainActivity : AppCompatActivity(), RecyclerFoodItemAdapter.OnItemClickLis
                 R.id.nav_food_menu -> {
                     drawerLayout.closeDrawer(GravityCompat.START)
                 }
+                R.id.nav_profile -> {
+                    drawerLayout.closeDrawer(GravityCompat.START)
+                    Handler().postDelayed({ openUserProfileActivity() }, drawerDelay)
+                }
+                R.id.nav_my_orders -> {
+                    drawerLayout.closeDrawer(GravityCompat.START)
+                    Handler().postDelayed({
+                        startActivity(
+                            Intent(
+                                this,
+                                MyCurrentOrdersActivity::class.java
+                            )
+                        )
+                    }, drawerDelay)
+                }
+                R.id.nav_orders_history -> {
+                    drawerLayout.closeDrawer(GravityCompat.START)
+                    Handler().postDelayed({
+                        startActivity(
+                            Intent(
+                                this,
+                                OrdersHistoryActivity::class.java
+                            )
+                        )
+                    }, drawerDelay)
+                }
+
+                R.id.nav_contact_us -> {
+                    drawerLayout.closeDrawer(GravityCompat.START)
+                    Handler().postDelayed({
+                        startActivity(
+                            Intent(
+                                this,
+                                ContactUsActivity::class.java
+                            )
+                        )
+                    }, drawerDelay)
+                }
 
                 R.id.nav_log_out -> {
                     drawerLayout.closeDrawer(GravityCompat.START)

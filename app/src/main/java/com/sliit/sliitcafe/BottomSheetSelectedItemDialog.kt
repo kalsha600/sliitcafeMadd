@@ -26,7 +26,7 @@ open class BottomSheetSelectedItemDialog: BottomSheetDialogFragment() {
         val totalPrice = this.arguments?.getFloat("totalPrice")
         val totalItems = this.arguments?.getInt("totalItems")
 
-        view.findViewById<TextView>(R.id.total_ordered_items_price_tv).text = "$%.2f".format(totalPrice)
+        view.findViewById<TextView>(R.id.total_ordered_items_price_tv).text = "LKR%.2f".format(totalPrice)
         view.findViewById<TextView>(R.id.total_ordered_items_tv).text = "Your Order ($totalItems items)"
 
         val placeOrderBTN: Button = view.findViewById(R.id.place_order_btn)

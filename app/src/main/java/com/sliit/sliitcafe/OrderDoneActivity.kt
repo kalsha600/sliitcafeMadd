@@ -157,7 +157,7 @@ class OrderDoneActivity : AppCompatActivity() {
                 "${orderIDTV.text}\n" +
                 "$paymentMethod\n" +
                 "Order Take-Away Time: $takeAwayTime\n" +
-                "Total Amount: $%.2f".format(subTotalPrice)
+                "Total Amount: LKR%.2f".format(subTotalPrice)
 
         intent.putExtra(Intent.EXTRA_TEXT, message)
         intent.type = "text/plain"
