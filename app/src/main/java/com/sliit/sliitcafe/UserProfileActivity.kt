@@ -26,9 +26,7 @@ class UserProfileActivity : AppCompatActivity() {
         setContentView(R.layout.activity_user_profile)
 
         val gender = intent?.getStringExtra("gender")
-        if(gender == "female") {
-            findViewById<CircleImageView>(R.id.profile_user_icon).setImageDrawable(resources.getDrawable(R.drawable.user_female))
-        }
+
 
         sharedPref = getSharedPreferences("user_profile_details", MODE_PRIVATE)
         loadUserProfile()
