@@ -207,6 +207,7 @@
         android:clipToPadding="false"
         android:orientation="horizontal">
 
+        // Order Cancel Button
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/current_order_item_cancel_btn"
             android:layout_width="0dp"
@@ -227,6 +228,7 @@
             android:gravity="center"
             />
 
+        //Show QR Button
         <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/current_order_item_show_qr_btn"
             android:layout_width="0dp"
