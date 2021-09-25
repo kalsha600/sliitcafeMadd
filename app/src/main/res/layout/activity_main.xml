@@ -125,6 +125,7 @@
                     android:layout_marginHorizontal="10dp"
                     android:orientation="vertical">
 
+
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/items_recycler_view"
                         android:layout_width="match_parent"
