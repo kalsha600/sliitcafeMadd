@@ -18,32 +18,32 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_arrow_upward"
-            app:tint="@color/text_dark_color"
+            android:onClick="goBack"
             android:rotation="-90"
+            android:src="@drawable/ic_arrow_upward"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:onClick="goBack"/>
+            app:tint="@color/button_color" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/orders_history"
-            android:textSize="20sp"
-            android:textColor="@color/text_dark_color"
             android:fontFamily="@font/montserrat_semi_bold"
-            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/orders_history"
+            android:textColor="@color/enjoy_your_meal"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/order_history_delete_records_iv"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_delete_outline"
-            app:tint="@color/text_dark_color"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/button_color" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
