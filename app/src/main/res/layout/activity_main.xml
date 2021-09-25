@@ -107,21 +107,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:orientation="horizontal"
                 android:paddingStart="20dp"
-                android:paddingEnd="5dp"
-                android:orientation="horizontal">
+                android:paddingEnd="5dp">
 
-
-                <androidx.appcompat.widget.SwitchCompat
-                    android:id="@+id/show_all_items_switch"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:fontFamily="@font/montserrat_regular"
-                    android:minHeight="0dp"
-                    android:scaleX="0.8"
-                    android:scaleY="0.8"
-                    android:text="@string/show_all" />
 
             </LinearLayout>
 
@@ -164,6 +153,18 @@
                 </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/show_all_items_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:fontFamily="@font/montserrat_regular"
+                android:minHeight="0dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="@string/show_all"
+                android:textColor="#201515" />
 
         </LinearLayout>
 

@@ -12,28 +12,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CafyTheOfficeCafeteria">
-        <activity android:name="com.sliit.sliitcafe.ContactUsActivity"></activity>
-<!--        <activity android:name=".SettingsActivity" />-->
-<!--        <activity android:name=".MyCurrentOrdersActivity" />-->
-        <activity android:name="com.sliit.sliitcafe.OrdersHistoryActivity" />
-        <activity android:name="com.sliit.sliitcafe.LoginUserActivity" />
-        <activity android:name="com.sliit.sliitcafe.RegisterUserActivity" />
-<!--      +  <activity android:name=".GenderSelectionActivity" />-->
         <activity
-            android:name="com.sliit.sliitcafe.MainActivity"
+            android:name=".MyCurrentOrdersActivity"
+            android:exported="true" />
+        <activity android:name=".ContactUsActivity" /> <!-- <activity android:name=".SettingsActivity" /> -->
+        <!-- <activity android:name=".MyCurrentOrdersActivity" /> -->
+        <activity android:name=".OrdersHistoryActivity" />
+        <activity android:name=".LoginUserActivity" />
+        <activity android:name=".RegisterUserActivity" /> <!-- +  <activity android:name=".GenderSelectionActivity" /> -->
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.sliit.sliitcafe.OrderDoneActivity"
+            android:name=".OrderDoneActivity"
             android:configChanges="orientation|screenSize" />
-        <activity android:name="com.sliit.sliitcafe.PaymentActivity" />
-<!--        <activity android:name=".SearchMenuActivity" />-->
-        <activity android:name="com.sliit.sliitcafe.PreviewDetailsActivity" />
-        <activity android:name="com.sliit.sliitcafe.UserProfileActivity" />
-        <activity android:name="com.sliit.sliitcafe.UserMenuOrderActivity" />
+        <activity android:name=".PaymentActivity" /> <!-- <activity android:name=".SearchMenuActivity" /> -->
+        <activity android:name=".PreviewDetailsActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".UserMenuOrderActivity" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name="com.sliit.sliitcafe.SplashScreenActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

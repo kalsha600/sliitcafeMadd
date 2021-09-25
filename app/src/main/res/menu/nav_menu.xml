@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
     xmlns:android="http://schemas.android.com/apk/res/android">
-    
+
+
+
+    <group
+        android:id="@+id/nav_part_1"
+        android:checkableBehavior="single">
+        <item android:title="@string/account">
+            <menu>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_user"
+                    android:title="@string/profile"/>
+                <item
+                    android:id="@+id/nav_my_orders"
+                    android:icon="@drawable/ic_my_orders"
+                    android:title="@string/my_orders"/>
+                <item
+                    android:id="@+id/nav_orders_history"
+                    android:icon="@drawable/ic_order_history"
+                    android:title="@string/orders_history"/>
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/nav_part_2"
+        android:checkableBehavior="single">
+        <item android:title="@string/support">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_contact_us"
+                    android:icon="@drawable/ic_mobile"
+                    android:title="@string/contact_us"/>
+            </menu>
+        </item>
+    </group>
+
+
 
     <group
         android:id="@+id/nav_part_4"

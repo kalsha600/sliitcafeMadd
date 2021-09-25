@@ -16,7 +16,6 @@
     <string name="noodles">Noodles</string>
     <string name="short_item_description">Short Item Description</string>
     <string name="item_name">Item Name</string>
-    <string name="default_price">$0.00</string>
     <string name="default_quantity">0</string>
     <string name="place_order">Place Order</string>
     <string name="your_order_default_items">Your Order (0 items)</string>
@@ -64,6 +63,8 @@
     <string name="credit_or_debit_card">Credit or Debit Card</string>
     <string name="bhim_upi">BHIM UPI</string>
     <string name="net_banking">Net Banking</string>
+    <string name="dollar">LKR</string>
+    <string name="default_price">LKR0.00</string>
     <string name="confirm_payment">Confirm Payment</string>
     <string name="wallets">Wallets</string>
     <string name="pay_securely">Pay Securely</string>
@@ -76,7 +77,6 @@
     <string name="date">DATE</string>
     <string name="total_amount">Total Amount</string>
     <string name="done">Done</string>
-    <string name="dollar">$</string>
     <string name="order_take_away_time">Order Take-away Time</string>
     <string name="cancel_order">Cancel Order</string>
     <string name="processing">Processing</string>
