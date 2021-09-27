@@ -147,4 +147,6 @@
     <string name="enjoy_your_meal_with_us">Enjoy Your Meal With Us</string>
     <string name="sign_up">Sign Up</string>
     <string name="qrCode">show_this_qr_code_to_your_SLIIT_canteen</string>
+    <string name="student_id">Student ID</string>
+    <string name="student_id_card">Student ID Card</string>
 </resources>

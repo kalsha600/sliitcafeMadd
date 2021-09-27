@@ -229,20 +229,22 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
+
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="@string/employee_id"
                                     android:fontFamily="@font/montserrat_bold"
-                                    android:textSize="12sp"
-                                    android:textColor="@color/purple_theme_color"/>
+                                    android:text="@string/student_id"
+                                    android:textColor="@color/purple_theme_color"
+                                    android:textSize="12sp" />
+
                                 <TextView
                                     android:id="@+id/profile_emp_id_no_tv"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="@string/employee_id"
-                                    android:textSize="15sp"
-                                    android:textColor="@color/text_light_color"/>
+                                    android:text="@string/student_id"
+                                    android:textColor="@color/text_light_color"
+                                    android:textSize="15sp" />
                             </LinearLayout>
 
                         </LinearLayout>
